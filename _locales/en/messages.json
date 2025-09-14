@@ -1,0 +1,5 @@
+{
+  "extension_name": {"message": "Cookie Quick Cleaner"},
+  "extension_description": {"message": "Displays cookies for the domain and subdomains of the website in the current tab, with options to delete them individually or all at once."},
+  "all_delete": {"message": "🗑️ All Delete"}
+}

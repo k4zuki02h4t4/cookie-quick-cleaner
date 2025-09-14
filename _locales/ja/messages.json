@@ -1,0 +1,5 @@
+{
+  "extension_name": {"message": "Cookie Quick Cleaner"},
+  "extension_description": {"message": "現在表示中のタブでアクセスしているウェブサイトのドメインとサブドメインに関連する Cookie を一覧表示し、個別削除や一括削除が行えます。"},
+  "all_delete": {"message": "🗑️ すべて削除"}
+}

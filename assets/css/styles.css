@@ -1,0 +1,79 @@
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size:16px;
+  margin: 0;
+  width: 420px;
+}
+
+h1 {
+  font-size: 1.2rem;
+}
+
+summary {
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+h1,
+summary {
+  font-size: 1rem;
+  margin: 0;
+  padding: 12px;
+}
+
+summary,
+.cookie-row {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+#site-header {font-weight:700;}
+#cookie-items {
+  max-height: 460px;
+  overflow-y: auto;
+}
+.cookie-row {
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1px solid #e0e0e0;
+  column-gap: 12px;
+  display: grid;
+  grid-template-columns: 120px 1fr 32px;
+  padding: 12px 16px;
+}
+.cookie-name,
+.cookie-key {
+  font-size: 0.9rem;
+  overflow:hidden;
+  word-break:break-all;
+}
+.cookie-name{font-weight:600;}
+.cookie-key{color:#444;}
+.cookie-trash {
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0;
+}
+.cookie-trash:hover {background: none}
+#footer{
+    display:flex;
+    justify-content:center;
+    padding:20px 0 16px;
+}
+#delete-all {
+  background-color: #1976d2;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 12px;
+  width: 180px;
+}
+#delete-all:hover {
+  background-color: #1565c0;
+}
